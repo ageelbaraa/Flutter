@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_topics_synic_with_ppt/WidgetsCatalog/Text/text_widget.dart';
 import 'UnderstandingStatelessAndStateful/understanding_stateless.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text('SDK Flutter Course'),
           ),
-          body: HelloWorld(),
+          body: TextWidget(),
         ));
   }
 }
