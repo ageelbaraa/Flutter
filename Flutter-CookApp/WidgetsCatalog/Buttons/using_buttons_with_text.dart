@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class PPFlutterButtonWithText extends StatelessWidget {
+class ButtonWithText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

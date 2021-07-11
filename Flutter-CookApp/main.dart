@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'WidgetsCatalog/Icons/icon_widget.dart';
+import 'WidgetsCatalog/Buttons/using_buttons_with_Icon.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text('SDK Flutter Course'),
           ),
-          body: IconWidget(),
+          body: ButtonWithIcon(),
         ));
   }
 }
