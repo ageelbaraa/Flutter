@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'UnderstandingStateless/understanding_stateless.dart';
+import 'UnderstandingStatelessAndStateful/understanding_stateless.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         ),
         home: Scaffold(
           appBar: AppBar(
-            title: Text('Understanding Stateless'),
+            title: Text('SDK Flutter Course'),
           ),
           body: HelloWorld(),
         ));
