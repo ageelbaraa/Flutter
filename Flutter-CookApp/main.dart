@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'WidgetsCatalog/RichText/rich_text_widget.dart';
+import 'WidgetsCatalog/Text/text_style.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text('SDK Flutter Course'),
           ),
-          body: RichTextWidget(),
+          body: TextStyleWidget(),
         ));
   }
 }
