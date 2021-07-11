@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'WidgetsCatalog/Buttons/using_buttons_with_Icon.dart';
+import 'WidgetsCatalog/Placeholders/placeholder_widget.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text('SDK Flutter Course'),
           ),
-          body: ButtonWithIcon(),
+          body: PlaceHolderWidget(),
         ));
   }
 }
