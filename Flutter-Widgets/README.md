@@ -1,8 +1,6 @@
 # Flutter Widgets
 ### :heart: Star :heart: the repo to support the project or :smile:[Follow Me](https://github.com/ageelbaraa).Thanks!
-Facebook Page| Twitter | QQ Group | Developer |
---- | --- | --- | ---
-[Flutter Open ](https://www.facebook.com/flutteropen) | [NieBin](https://twitter.com/niebin_gg) |  963828159 |[NieBin](https://github.com/nb312)  
+
 # What it is?
 The Project is a flutter examples of the flutter widgets. Some example contain articles and code about flutter widgets.
 
@@ -97,7 +95,7 @@ Opacity |	Transform |	DecoratedBox |	FractionalTranslation |	RotatedBox
 ClipOval | ClipPath |	ClipRect |	CustomPaint |	BackdropFilter
 
 ### Scrolling
-[This part link](https://github.com/nb312/flutter-layouts-exampls)
+[This part link](https://github.com/ageelbaraa/Flutter/tree/main/Flutter-Layouts)
 
 1 | 2 | 3 | 4 
 --- | --- | --- | --- 
