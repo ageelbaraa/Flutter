@@ -14,7 +14,7 @@ class _PickTimeState extends State<PickTime> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Pick Date'),
+          title: Text('Pick Time'),
         ),
         body: TextField(
           controller: _controller,
