@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ListViewWithStaticChildren extends StatefulWidget {
+class ListViewWithItemBuilders extends StatefulWidget {
   @override
-  _ListViewWithStaticChildrenState createState() =>
-      _ListViewWithStaticChildrenState();
+  _ListViewWithItemBuildersState createState() =>
+      _ListViewWithItemBuildersState();
 }
 
-class _ListViewWithStaticChildrenState
-    extends State<ListViewWithStaticChildren> {
+class _ListViewWithItemBuildersState
+    extends State<ListViewWithItemBuilders> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
