@@ -14,26 +14,13 @@ class _ListViewWithItemBuildersState
       appBar: AppBar(
         title: Text('ListView with Item Builders'),
       ),
-      body: Column(
-        children: [
-          ListView.builder(
-            itemCount: 20,
-            itemBuilder: (context, index) {
-              return ExampleWidget(name: 'Dynamic Box ${index + 1}');
-            },
-          ),
-          ListView.separated(
-            itemBuilder: (context, index) {
-              return ExampleWidget(name: 'Separated Box ${index + 1}');
-            },
-            separatorBuilder: (context, index) {
-              return Divider(
-                height: 8,
-              );
-            },
-            itemCount: 20,
-          )
-        ],
+      body: ListView.builder(
+        itemCount: 20,
+        scrollDirection: Axis.vertical,
+        shrinkWrap: true,
+        itemBuilder: (context, index) {
+          return ExampleWidget(name: 'Dynamic Box ${index + 1}');
+        },
       ),
     );
   }
