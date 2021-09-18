@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'WidgetsCatalog/ListView/list_view_with_item_builders.dart';
 import 'WidgetsCatalog/ListView/list_view_with_item_separated.dart';
 
 void main() {
@@ -14,6 +15,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: ListViewWithItemSeparated());
+        home: ListViewWithItemBuilders());
   }
 }
