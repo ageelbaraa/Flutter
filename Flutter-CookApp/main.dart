@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'WidgetsCatalog/ListView/list_view_with_item_builders.dart';
-import 'WidgetsCatalog/ListView/list_view_with_item_separated.dart';
+import 'WidgetsCatalog/Tables/table_widget.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,6 +13,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: ListViewWithItemBuilders());
+        home: VerticalAlignmentTable());
   }
 }
