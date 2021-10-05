@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'WidgetsCatalog/Scaffold/scaffold_bottom_sheet.dart';
+import 'WidgetsCatalog/TabBar/default_tab_view_widget.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,6 +13,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: ScaffoldBottomSheetWidget());
+        home: DefaultTabControllerPage());
   }
 }
