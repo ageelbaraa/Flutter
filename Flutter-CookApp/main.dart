@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'Navigation/navigation_main.dart';
+import 'Navigation/pass_data_between_pages.dart';
 import 'Navigation/simple_navigation_example.dart';
 
 void main() {
@@ -13,6 +15,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: SimpleNavigationPage());
+        home: UserDetailsPage());
   }
 }
