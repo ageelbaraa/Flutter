@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'WidgetsCatalog/TabBar/tab_view_for_ios.dart';
+import 'Navigation/simple_navigation_example.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,6 +13,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: CupertinoTabPage());
+        home: SimpleNavigationPage());
   }
 }
