@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Navigation/navigation_main.dart';
-import 'Navigation/pass_data_between_pages.dart';
-import 'Navigation/simple_navigation_example.dart';
+import 'Navigation/srop_route_from_pop.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,6 +13,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: UserDetailsPage());
+        home: VetoPopPage());
   }
 }
