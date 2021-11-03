@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'FutuerAndStream/Future/use_future_builder.dart';
 import 'FutuerAndStream/Stream/use_stream_builder.dart';
 import 'Navigation/srop_route_from_pop.dart';
 
@@ -14,6 +15,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: StreamBuilderPage());
+        home: FutureBuilderPage());
   }
 }
