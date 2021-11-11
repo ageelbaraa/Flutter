@@ -1,9 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'FutuerAndStream/Future/use_future_builder.dart';
-import 'FutuerAndStream/Stream/use_stream_builder.dart';
-import 'Navigation/srop_route_from_pop.dart';
 
-void main() {
+import 'Firebase/Auth/Example1/pages/root_page.dart';
+import 'Firebase/Auth/Example1/services/authentication.dart';
+
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -15,6 +18,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: FutureBuilderPage());
+        home: RootPage(auth: new Auth()));
   }
 }
